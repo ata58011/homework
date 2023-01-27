@@ -1,0 +1,239 @@
+/* Reset Css  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: #787272;
+}
+
+a {
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.left-part {
+  margin-left: 20%;
+  padding: 4rem 3rem;
+  height: auto;
+
+}
+/* nav css */
+
+nav {
+  width: 20%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #bd5d38;
+  row-gap: 40px;
+  position: fixed;
+}
+
+nav .logo img {
+  width: 240px;
+  border-radius: 100%;
+  border: 10px solid #cc7d61;
+}
+
+nav .menu-list {
+  display: flex;
+
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.menu-list a {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #f9f9f9;
+  opacity: 0.5;
+}
+
+.menu-list a:hover {
+  opacity: 0.8;
+}
+
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+  border-bottom: 2px solid #dee0ea;
+}
+
+.personal-info h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.personal-info h3 {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.personal-info p {
+  font-size: 28px;
+  padding-top: 20px;
+}
+
+.personal-info .icons {
+  display: flex;
+  column-gap: 20px;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.icons li {
+  background-color: #485056;
+  padding: 15px;
+  border-radius: 100%;
+}
+.icons li i {
+  font-size: 36px;
+  color: #fff;
+}
+
+.experiences {
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+}
+.experiences h1 {
+  font-size: 48px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.experience {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+  margin: 4rem 0;
+}
+
+.info h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  display: flex;
+  padding-bottom: 10px;
+  color: #485056;
+}
+
+.info h4 {
+  font-size: 20px;
+}
+
+.info p {
+  padding-top: 20px;
+  font-size: 20px;
+}
+.date {
+  color: #bd5d38;
+  font-size: 18px;
+}
+.education{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.education h1 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+.educate {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+ column-gap: 10px;
+}
+
+.educate-1 {
+margin-bottom: 4rem;
+}
+
+.educate h2 {
+  font-size: 26px;
+  padding-bottom: 8px;
+
+}
+.educate h4 {
+  font-size: 23px;
+  padding-bottom: 15px;
+
+}
+
+.educate h5 {
+  font-size: 20px;
+}
+
+.skills h1 {
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+
+.skills h3 {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+}
+
+.skills  .languages {
+  display: flex;
+  column-gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+.languages  i {
+  font-size: 3.5rem;
+  
+}
+
+.skills h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+.skills .ticks {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+
+.ticks li  {
+  font-size: 20px;
+  
+}
+
+.interests h1 {
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+}
+
+.interests p {
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+
+}
+
+.awards h1 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.awards ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.awards ul li {
+  font-size: 1.3rem;
+}
+.awards ul li i {
+  color: gold;
+}
